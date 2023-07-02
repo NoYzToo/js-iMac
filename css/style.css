@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'gilroy';
+    src: url(../fonts/Gilroy-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gilroy';
+    src: url(../fonts/Gilroy-Semibold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gilroy';
+    src: url(../fonts/Gilroy-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+button {
+    cursor: pointer;
+}
+
+
+
+
+
+.container {
+    max-width: 1008px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.buy_imac__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.buy_imac__parag {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+}
+.previev {
+    width: 550px;
+    display: flex;
+    margin: 60px auto;
+    justify-content: space-between;
+    position: relative;
+}
+.img-mac {
+    width: 45%;
+    transition: .4s;
+}
+
+.img-mac-space-gray {
+    opacity: 0;
+    position: absolute;
+    z-index: -99;
+}
+.img-mac-silver {
+    opacity: 1;
+    position: static;
+    z-index: 1;
+}
+
+.previev__content {
+    flex: 0 0 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.mac-name {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.mac-color {
+    font-size: 24px;
+    color: rgba(0, 113, 227, 1);
+}
+.mac-price {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.select-option {
+    width: 320px;
+    margin: 0 auto 20px;
+}
+.mac-colors {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.btn-color {
+    width: 48%;
+    height: 40px;
+
+    border-radius: 10px;
+    background-color: rgba(207, 231, 255, 1);
+    
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+
+    transition: .2s;
+    border: 2px solid transparent;
+}
+.btn-color:hover {
+    border: 2px solid rgba(0, 113, 227, 1);
+}
+.white {
+    color: white;
+}
+.space-gray {
+    color: rgba(121, 121, 121, 1);
+}
+.select-ssd {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.btn-ssd {
+    width: 100%;
+    height: 55px;
+    text-align: left;
+    padding: 0 15px;
+
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+
+    border: 2px solid rgba(207, 231, 255, 1);
+    border-radius: 10px;
+    background-color: transparent;
+    transition: .2s;
+}
+.btn-ssd:hover {
+    border: 2px solid rgba(0, 127, 255, 1);
+}
+
+
+
+
+
+.btn-color-active {
+    background-color: rgba(0, 113, 227, 1);
+    color: white;
+}
+.btn-ssd-active {
+    border: 2px solid rgba(0, 127, 255, 1);
+}
+
+
+@keyframes change-color-name {
+    0% {
+        opacity: 1;
+    }
+    
+    40% {
+        opacity: 0;
+    }
+    
+    60% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes change-price {
+    0% {
+        opacity: 1;
+    }
+    
+    40% {
+        opacity: 0;
+    }
+    
+    60% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}

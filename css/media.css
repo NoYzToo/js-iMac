@@ -1,0 +1,88 @@
+@media (max-width: 800px) {
+
+    .buy_imac__title {
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+    .buy_imac__parag {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .previev {
+        width: 360px;
+        margin: 45px auto;
+    } 
+
+    .mac-name {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .mac-color {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .mac-price {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .select-option {
+        width: 290px;
+    }
+
+    .btn-color {
+        width: 46%;
+        height: 36px;
+        font-size: 15px;
+    }
+
+    .btn-ssd {
+        height: 45px;
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 435px) {
+
+    .buy_imac__title {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .buy_imac__parag {
+        font-size: 12px;
+    }
+
+    .previev {
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        margin: 40px auto 20px;
+    }
+
+    .mac-name {
+        margin-bottom: 15px;
+        margin-top: 20px;
+
+        font-size: 20px;
+        line-height: 21px;
+    }
+    
+    .mac-color {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .mac-price {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .img-mac {
+        width: 60%;
+    }
+}
